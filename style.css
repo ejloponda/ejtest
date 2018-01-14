@@ -1,0 +1,801 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway'); /*--- Nav Font --*/
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:700|Raleway'); /*--- Heading Font --*/
+
+
+*{
+ margin :0;
+ padding:0;
+
+ 	
+}
+
+.mainheaderimage{
+    background:url(img/metronicheaderimg.jpg) no-repeat 50% 50%;
+    width:100%;
+    height: 600px;
+}
+
+
+.header-wrapper-parallax{
+    background-color: rgba(255, 0, 255, 0.3);
+    height: 80px;
+    border-bottom: 0.3px solid white;
+   
+}
+
+#headerlogo{
+    font-size:20px;
+    font-family: Raleway;
+    width:160px;
+    padding-top:1.5%;
+    float:left;
+    margin-left:10%
+    
+    
+ 
+}
+
+#headerlogo a{
+    color:#ffffff;
+    text-decoration: none;
+ 
+   
+    
+}
+
+.header-right a{
+    text-decoration: none;
+    color:white;
+    font-family: Raleway;
+    float:left;
+    margin-right:50px;
+    padding-top:15px;
+   
+
+    
+}
+.header-right a:hover{
+    border-bottom: 1px solid white;
+}
+
+.header-right input[type=submit]{
+    font-family: Raleway;
+    float:left;
+    padding:10px;
+    border-radius: 20px 20px 20px 20px;
+    height: 50px;
+    width:120px;
+    background-color:transparent;
+    border:0.5px solid #ef3988;
+    font-weight: 700;
+    color:white;
+    transition:background 0.5s;
+}
+
+.header-right input[type=submit]:hover{
+    background-color:#ef3988;
+}
+.header-right{
+    float:right;
+    margin-top:1%;
+    margin-right: 10%;
+}
+
+
+/*--------------end of Header---------*/
+
+
+#metroniclogo img{
+    
+    width:150px;
+    height: 180px;
+    
+}
+
+#metroniclogo{
+    text-align: center;
+    margin-top:30px;
+    margin-bottom: 10px;
+}
+
+.metronictext{
+    
+    font-family: Raleway;
+    color:#ffffff;
+    margin:auto;
+    font-size: 20px;
+    width:900px;
+    border-top:1px solid white;
+    border-bottom:0.5px solid white;
+    padding:15px 0;
+
+}
+
+.metronicbtn{
+    text-align: center;
+    margin-top:20px;
+}
+
+.metronicbtn input[type=button]{
+    height: 60px;
+    width:160px;
+    border-radius: 20px 20px 20px 20px;
+    background:transparent;
+    font-family: Raleway;
+    color:white;
+    font-size:15px;
+    font-weight: bold;
+    border:0.5px solid #ef3988;
+    transition: background 0.5s;
+    
+}
+
+.metronicbtn input[type=button]:hover{
+    background-color:#ef3988;
+}
+
+
+.nav-wrapper{
+    height: 130px;
+    width:75%;
+    background-color:white;
+    margin:auto;
+    position:relative;
+    top:-65px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 10;
+    
+
+}
+
+
+.nav-wrapper ul{
+    max-width:980px;
+    margin:auto;
+    padding-top:40px;
+}
+
+.nav-wrapper ul li{
+    
+    display:inline-block;
+    padding-left:26px;
+    padding-top:15px;
+
+}
+
+.nav-wrapper ul li a{
+    text-decoration: none;
+    font-family: Raleway;
+    border:0.5px solid white;
+    border-radius: 23px 23px 23px 23px;
+    padding:20px;
+    font-size:15px;
+    font-weight: 700;
+    color:black;
+    transition:background 0.3s;
+   
+
+}
+
+.nav-wrapper ul li a:hover{
+    background-color:#f7f4f4;
+    color:#ef3988;
+}
+
+
+
+/*--------end of Navigations---*/
+
+
+.outer-wrapper{
+    width:100%;
+    height: auto;
+    background-color:#f9f9f9;
+  
+    position:relative;
+    padding-top:150px;
+    top:-130px;
+
+  
+
+   
+ 
+  
+  
+}
+
+.inner-wrapper{
+    width:40%;
+    margin-left:6.5%;
+    margin-bottom: 50px;
+    height: 500px;
+    background-color:white;
+    float:left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.inner-wrapper img{
+    max-width:80%;
+    height:300px;
+    margin-left:150px;
+    padding-top:28px;
+}
+
+
+
+.inner-wrapper h3{
+    font-family: Raleway;
+    text-align: center;
+    margin:50px 0;
+
+}
+
+.inner-wrapper ul{
+    text-align: center;
+    width:60%;
+    margin:auto;
+    border:1px solid #ef3988;
+    border-radius: 20px;
+}
+
+.inner-wrapper ul li{
+    display: inline-block;
+    padding:10px;
+  
+}
+
+
+
+
+.inner-wrapper li a{
+    text-decoration: none;
+    color:black;
+    font-family: Raleway;
+    font-size:13px;
+    font-weight: 700;
+   
+
+    
+
+    
+}
+
+.inner-wrapper li a:hover{
+    text-decoration: underline;
+    color:#ef3988;
+ 
+ 
+    
+}
+
+
+
+#sectionh3{
+    font-family: Raleway;
+    font-size:20px;
+    text-align: center;
+    clear:both;
+    padding:50px 0 150px 0;
+    color:gray;
+}
+
+#clr{
+    color:gray;
+}
+
+.jbwrapper{
+    background: url(img/metronicheaderimg.jpg) no-repeat 50%;
+    background-attachment: fixed;
+    width:100%;
+    height:500px;
+    position:relative;
+    top:-150px;
+}
+
+.jbinnerwrapper{
+     background-color: rgba(255, 0, 255, 0.2);
+    height: 440px;
+    padding-top:60px;
+}
+
+.contentwrapper{
+    width:60%;
+    height: 300px;
+   border:1px solid white;
+    margin:0 auto;
+    
+}
+
+.contentwrapper h3{
+    font-family: Raleway;
+    color:white;
+    line-height: 35px;
+    padding:10px;
+    text-align: center;
+}
+
+#JBCustomer{
+    font-family: Raleway;
+    color:white;
+    text-align: center;
+    padding-top:20px;
+    width:950px;
+    font-size:18px;
+   
+}
+
+#mc{
+    font-weight: 200;
+    padding-left:15px;
+}
+
+.skillswrapper{
+    background-color:#f4f4f4;
+    width:100%;
+    height: 800px;
+    position:relative;
+    top:-150px;
+    padding-top:125px;
+}
+
+.skillscontentbox{
+    width:350px;
+    height: 150px;
+    border:1px solid lightgray;
+    background-color:white;
+    float:left;
+    padding-top:40px;
+    padding-right: 40px;
+    
+   
+    
+    
+}
+
+.skillscontentboxwrapper{
+    width:80%;
+ 
+    margin:auto;
+   
+    
+}
+
+
+.skillscontentbox img{
+    width:70px;
+    height: 70px;
+    float:left;
+    padding:20px;
+}
+
+.skillscontentbox h3{
+    font-family: Raleway;
+    color:black;
+    padding:20px 0;
+}
+
+.skillscontentbox p{
+    font-family: raleway;
+    color:gray;
+    text-align: justify;
+    font-size:13px;
+    width:95%;
+}
+
+
+/*--end of skills section---*/
+
+
+.purchasesection{
+    width:100%;
+    height: 400px;
+    background: url(img/metronicheaderimg.jpg) no-repeat 50% 50%;
+    background-attachment: fixed;
+    position:relative;
+    top:-150px;
+}
+
+
+.purchasewrapper{
+    width:100%;
+    height: 400px;
+     background-color: rgba(255, 0, 255, 0.2);
+}
+
+
+.purchasecontentbox{
+    max-width:80%;
+    height: auto;
+    margin:auto;
+    padding-top:150px;
+}
+
+.purchasecontentbox h3{
+    font-family: Raleway;
+    font-size:30px;
+    color:white;
+}
+
+
+
+.purchasecontentbox input[type=button]{
+    font-family: Raleway;
+    width:200px;
+    height: 50px;
+    border-radius: 20px;
+    background-color:#ef3988;
+    color:white;
+    font-weight: 700;
+    border:1px solid #ef3988;
+    margin-left:40%;
+    margin-top:20px;
+    transition:background 0.4s;
+}
+
+.purchasecontentbox input[type=button]:hover{
+    
+   background-color: #b6399c;
+    text-decoration: underline;
+}
+
+
+.newsletterwrapper{
+    width:100%;
+    height: 400px;
+    background:white;
+    position:relative;
+    top:-150px;
+}
+
+.newsletteraligncontainer{
+    width:700px;
+    height: auto;
+    margin:auto;
+ 
+}
+
+.newsletteraligncontainer h3{
+    font-family: Raleway;
+    text-align: center;
+    font-size:25px;
+    padding-top:100px;
+}
+
+#clr2{
+    color:blueviolet;
+}
+
+#clr3{
+    color:#ef3988;
+}
+.newsletteraligncontainer input[type=search]{
+    font-family: raleway;
+    width:450px;
+    height: 50px;
+    border-radius: 20px;
+    padding-left:30px;
+    margin-left:15%;
+    margin-top:20px;
+    border:0.5px solid #ef3988;
+}
+.newsletteraligncontainer input[type=submit]{
+    
+    width:100px;
+    height: 40px;
+    border-radius: 20px;
+    border:0.5px solid #ef3988;
+    background-color:#ef3988;
+    font-family: raleway;
+    font-weight: 700;
+    color:white;
+    left:-108px;
+    position:relative;
+    transition: background 0.5s;
+}
+
+.newsletteraligncontainer input[type=submit]:hover{
+ background-color:#b9399c;
+    text-decoration: underline;
+}
+
+.newsletteraligncontainer img{
+    width:150px;
+    height: 150px;
+}
+
+.newsletteraligncontainer ul{
+    width:750px;
+    margin:auto;
+    padding-top:50px;
+   
+}
+
+.newsletteraligncontainer ul li{
+    display: inline-block;
+    padding:10px;
+}
+
+
+.newsletteraligncontainer ul li:hover{
+    opacity: 0.5;
+}
+
+
+#menu-icon{
+
+    display: hidden;
+    width:100%;
+    height:100%;
+    background:url(img/nav-icon.png) no-repeat center;
+    background-color:blue;
+    
+}
+
+a:hover#menu-icon{
+    border-radius: 4px 4px 0 0;
+}
+
+
+/*-- end of Footer--*/
+
+
+@media screen and (max-width:768px){
+    
+    .header-wrapper-parallax{
+        font-size:10px;
+        
+        
+    }
+    
+    .header-right h4{
+        font-size: 14px;
+        
+    }
+    
+    .header-right input[type=submit]{
+        height: 30px;
+        width:85px;
+        font-size:12px;
+        margin-top:10px;
+        
+      
+    }
+    
+    
+    .mainheaderimage{
+      width: 100%;
+    }
+    
+    .metronictext{
+        width:100%;
+        text-align: center;
+    }
+    
+    .metronicbtn input[type=button]{
+        width:150px;
+        height: 40px;
+      
+    }
+    
+        #menu-icon{
+        
+        display: inline-block;
+        border:1px solid #ef3988;
+        background-color:violet;
+     
+    }
+    
+        .nav-wrapper ul{
+        display: none;
+        z-index: 1000;
+        position:absolute;
+        border:1px solid #FFF;
+       margin-left:30px;
+        width:180px;
+        border-radius: 0 10px 0 10px;
+        background-color:#ef3988;
+        height: auto;
+        padding-bottom:15px;
+        margin-top:-15px;
+        padding-top:10px;
+        
+    }
+    
+    .nav-wrapper ul li a{
+        font-size:10px;
+    }
+    
+    .nav-wrapper ul li{
+        padding:20px 10px;
+    }
+    
+    .nav-wrapper:hover ul {
+        display: block;
+       
+    }
+    
+    .nav-wrapper{
+        margin-top:50px;
+        max-width: 50px;
+        height: 50px;
+        position:relative;
+        top:-105px;
+        left:-90px;
+    }
+  
+    .inner-wrapper{
+        width:100%;
+        display: block;
+        margin:auto;
+    }
+    .inner-wrapper h3{
+        font-size:15px;
+    }
+    
+    .inner-nav li a{
+        font-size:13px;
+        
+    
+    }
+    
+    .inner-wrapper img{
+        width:100%;
+        margin:auto;
+        height: auto;
+        padding:30px;
+    }
+    
+    .jbwrapper{
+        width:100%;
+        height: auto;
+        margin:auto;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+    
+    .jbinnerwrapper{
+        width:100%;
+        height: auto;
+    }
+    .contentwrapper{
+        width:100%;
+        height: auto;
+        clear:both;
+        
+       
+    }
+    .contentwrapper h3{
+        font-size:15px;
+        width:100%;
+        line-height: 20px;
+
+        
+    }
+    
+    #JBCustomer{
+        width:100%;
+        clear:both;
+    }
+    
+    .skillswrapper{
+        width:100%;
+        height: auto;
+        margin:auto;
+        display: block;
+    }
+    .skillscontentboxwrapper{
+        
+         width:100%;
+        height: auto;
+        margin:auto;
+        display: block;
+        
+    }
+    
+    .skillscontentbox{
+        display: block;
+        width:100%;
+        height: auto;
+        text-align: center;
+        padding-top:0;
+        
+      
+    }
+    
+    .skillscontentbox:last-child{
+        margin-bottom: 40px;
+    }
+    
+    .skillscontentbox h3{
+        font-size:15px;
+        padding:10px;
+    
+    }
+    .skillscontentbox p{
+        width:100%;
+        font-size:11px;
+        text-align: center;;
+        
+    }
+    .skillscontentbox img{
+        width:40px;
+        height: 40px;
+    }
+    
+    .purchasesection{
+        width:100%;
+        clear:both;
+        height: auto;
+        margin:auto;
+        text-align: center;
+       
+    }
+    
+    .purchasewrapper{
+        width:100%;
+        height: auto;
+        margin:auto;
+    }
+    
+    .purchasecontentbox{
+        width:100%;
+        height: auto;
+        margin:auto;
+        padding-top:50px;
+        
+    }
+  
+    .purchasecontentbox h3{
+        font-size:25px;
+        padding-bottom: 50px;
+        
+    }
+    
+    .purchasecontentbox input[type=button]{
+        width:150px;
+        height: 40px;
+        margin:0 auto;
+        margin-bottom: 30px;
+        
+    }
+    
+    .newsletterwrapper{
+        width:100%;
+        height: auto;
+        margin: auto;
+        
+    }
+    .newsletteraligncontainer{
+        width:100%;
+        height: auto;
+        margin:auto;
+    }
+    
+    .newsletteraligncontainer h3{
+        margin-bottom: 20px;
+    }
+    
+    .newsletteraligncontainer input[type=search]{
+        width:100%;
+        height: auto;
+        margin:auto;
+        padding:20px;
+    }
+    
+    .newsletteraligncontainer input[type=submit]{
+        width:50%;
+        height: 40px;
+     margin-left:170px;
+        margin-top:20px;
+        
+      
+    }
+    
+    .newsletteraligncontainer ul li{
+        display: block;
+        widows: 100%;
+        height:auto; 
+        margin-left:50px;
+    
+    }
+}
